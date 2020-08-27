@@ -16,7 +16,6 @@ pipelineJob('bicycle-docker') {
                         url 'https://github.com/viosif/bicycle.git'
                     }
                     branch 'master'
-                    scriptPath('jenkinsfile')
                 }
             }
         }
